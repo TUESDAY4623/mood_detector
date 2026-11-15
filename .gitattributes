@@ -1,0 +1,2 @@
+# Use Git LFS for the published Windows executable
+dist/MoodDashboard.exe filter=lfs diff=lfs merge=lfs -text

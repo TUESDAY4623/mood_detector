@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build outputs
+build/
+*.egg-info/
+.eggs/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local data and recordings (do not commit)
+dataset/
+datasets/
+checkpoints/
+mood_snaps/
+out/
+_evidence/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Runtime/generated logs and screenshots
+*.log
+_build_log.txt
+_build_dash.log
+_gui_smoke.log
+_gui_smoke.log)
+dashboard_selftest.png
+dist/mood_snaps/
+dist/MoodDetector.exe
+
+
+# SWE/internal tooling state
+.ai/
+.claude-flow/
+.mimosa/
+.video_agent/
+
+# Local environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.kaggle.json
+kaggle.json
+credentials*.json
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini

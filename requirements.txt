@@ -1,0 +1,16 @@
+# orbitdesk emotion-model stack
+# The .venv in this project is already built from these. To rebuild on a
+# fresh machine:
+#     python -m venv .venv
+#     .venv/Scripts/pip install -r requirements.txt   (Windows)
+#     .venv/bin/pip install -r requirements.txt       (Linux/macOS)
+torch==2.15.0
+torchvision==0.29.2
+openvino==2026.4.1
+opencv-python==4.14.0.94
+scikit-learn==1.9.1
+numpy==2.5.4
+pandas==3.1.0
+tqdm==4.70.1
+pillow==13.0.0
+mediapipe==1.2.2
